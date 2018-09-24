@@ -142,7 +142,7 @@ function workerFunction() {
       return;
     }
     let startTime = Date.now();
-    let numPoints = 1000000000;
+    let numPoints = 10000000;
     let sliceSize = 100000;
     let c = 0;
     let numPieces = numPoints / sliceSize;
